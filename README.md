@@ -1,2 +1,2 @@
 # etch-a-sketch
-## Etch-A-Sketch JavaScript project
+Etch-A-Sketch game created with JavaScript/HTML/CSS
