@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id="text">
+    <h1 id="title">Be creative!</h1>
+    <p id="requirement">Enter your desired grid size below</p>
+</div>
+    <div id="toggles">
+    <div id="generate">
+    <input type="number" name="size" id="size" min="1" placeholder="Grid Size" required>
+    <button type="button" id="btn">OK</button>
+</div>
+<div id="color-mode">
+    <button type="button" id="white" class="selected">White</button>
+    <button type="button" id="rainbow">Rainbow</button>
+</div>
+</div>
+<p id="error">&nbsp;</p>
+    <div id="grid-container"></div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
